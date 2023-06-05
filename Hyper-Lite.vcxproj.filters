@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="FindObject.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Hyper_menu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.hpp">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Afort.hpp">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="lazy.hpp">
+      <Filter>Decryption</Filter>
+    </ClInclude>
+    <ClInclude Include="PatternScanner.h">
+      <Filter>Decryption</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_render.hh">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="UE5Structure.h">
+      <Filter>Unreal Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="UnrealSDKClass.h">
+      <Filter>Unreal Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="hook.h">
+      <Filter>Decryption</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="spoof.h">
+      <Filter>Decryption</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{b00f552d-31cf-4506-9755-95f32c78053c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actors">
+      <UniqueIdentifier>{43db8379-2769-4b45-8796-208bf17ae2bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{7f9fb9bd-1105-40b5-8a96-836f2ada7cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Decryption">
+      <UniqueIdentifier>{f5bb14ef-6cc9-4ebc-bb78-b587f1cd1ba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unreal Structs">
+      <UniqueIdentifier>{18b2c078-e62c-429f-a7f6-55749a076f70}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="spoof.asm">
+      <Filter>Decryption</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
